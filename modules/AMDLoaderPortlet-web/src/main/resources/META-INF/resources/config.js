@@ -12,8 +12,18 @@ Liferay.Loader.addModule(
 Liferay.Loader.addModule(
 	{
         dependencies: [],
-        name: 'fullCalendar.3.4.0',
+        name: 'fullCalendar',
         anonymous: true,
         path: MODULE_PATH + '/js/fullcalendar.js'
     }
 );
+
+Liferay.Loader.addModule(
+	{
+        dependencies: [],
+        name: 'scheduler',
+        anonymous: true,
+        path: MODULE_PATH + '/js/scheduler.js'
+    }
+);
+

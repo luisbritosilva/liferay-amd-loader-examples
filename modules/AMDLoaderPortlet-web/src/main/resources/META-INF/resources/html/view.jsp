@@ -35,7 +35,7 @@
 		require ('jquery', function (jquery) {
  			jquery('#prelabel_example1').val('jquery live and kicking');			
 			
- 			require ('moment.2.18.1', function (moment) {
+ 			require ('moment', function (moment) {
  			
  				console.log(moment().format());
  				

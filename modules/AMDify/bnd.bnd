@@ -1,0 +1,6 @@
+Bundle-Name: AMDify Bundle
+Bundle-SymbolicName: com.lbs.AMDify
+Bundle-Version: 1.0.0
+	
+Liferay-JS-Config: /META-INF/resources/config.js
+Web-ContextPath: /lbs-AMDify
